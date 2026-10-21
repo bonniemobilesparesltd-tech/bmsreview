@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#e50919">
+<title>Bonnie Mobile Spares Ltd | Leave a Review</title>
+<meta name="description" content="Choose your Bonnie Mobile Spares Ltd branch and share your honest experience on Google.">
+<style>
+:root{--red:#e50919;--dark:#101114;--muted:#5d6674;--line:#e2e6ec;--soft:#f5f7fa}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;color:#111827;background:#fff;line-height:1.5}
+a{color:inherit}
+header{background:linear-gradient(115deg,rgba(8,9,12,.98),rgba(20,21,25,.92)),radial-gradient(circle at 80% 10%,#383b42,transparent 45%);color:white}
+.nav{max-width:1180px;margin:auto;padding:22px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.logo{font-weight:950;font-size:30px;letter-spacing:-1.8px;line-height:1;color:#fff}
+.logo span{color:var(--red)}
+.logo small{display:block;font-size:10px;letter-spacing:.6px;margin-top:5px;font-weight:800}
+.navlinks{display:flex;gap:24px;font-size:14px;color:#e6e6e6}
+.navlinks a{text-decoration:none}
+.hero{max-width:1180px;margin:auto;padding:56px 24px 68px;display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:40px}
+.eyebrow{text-transform:uppercase;color:#ff5964;font-size:12px;font-weight:900;letter-spacing:2px}
+h1{font-size:clamp(42px,5vw,66px);line-height:.99;letter-spacing:-2.8px;margin:12px 0 20px;max-width:620px}
+h1 span{color:#ff2637}
+.hero p{max-width:520px;color:#e0e2e6;font-size:17px;margin:0 0 26px}
+.primary{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:#fff;color:#151515;padding:14px 22px;border-radius:999px;text-decoration:none;font-weight:850;box-shadow:0 8px 22px #0002}
+.gmark{display:inline-grid;place-items:center;font-size:22px;font-weight:900;width:27px;height:27px;background:conic-gradient(from -45deg,#4285f4 0 25%,#34a853 0 50%,#fbbc05 0 70%,#ea4335 0 86%,#4285f4 0);color:transparent;background-clip:text;-webkit-background-clip:text}
+.hero-art{min-height:290px;border:1px solid #ffffff25;border-radius:24px;background:linear-gradient(145deg,#292b31,#0d0e10);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;padding:32px}
+.hero-art:before{content:"";position:absolute;width:290px;height:290px;border:1px solid #ffffff16;border-radius:50%;box-shadow:0 0 0 38px #ffffff08,0 0 0 76px #ffffff05}
+.phone{position:relative;width:118px;height:220px;border:5px solid #777b84;border-radius:22px;background:linear-gradient(150deg,#1b1d22,#363a43);transform:rotate(-10deg);box-shadow:0 24px 45px #0009}
+.phone:before{content:"";position:absolute;top:10px;left:38px;width:34px;height:5px;border-radius:8px;background:#858992}
+.phone:after{content:"BMSL";position:absolute;top:88px;left:0;right:0;text-align:center;font-weight:950;font-size:20px;color:#fff}
+.tool{position:absolute;width:9px;height:150px;border-radius:6px;background:linear-gradient(90deg,#999,#f3f3f3,#555);transform:rotate(34deg);right:26%;top:20%;box-shadow:0 6px 18px #0007}
+.tool:after{content:"";position:absolute;bottom:-8px;left:2px;width:5px;height:22px;background:var(--red);border-radius:3px}
+main{max-width:1180px;margin:auto;padding:46px 24px 32px}
+.section-head{text-align:center;margin:0 auto 28px}
+.section-head h2{font-size:clamp(28px,3.5vw,40px);letter-spacing:-1.4px;line-height:1.1;margin:8px 0 10px}
+.section-head p{margin:0;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.branch{border:1px solid var(--line);border-radius:18px;padding:22px;display:flex;flex-direction:column;box-shadow:0 5px 20px #11130a05}
+.branch-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+.branch h3{margin:0;font-size:21px;letter-spacing:-.4px}
+.tag{font-size:11px;color:#a10d18;background:#fff0f1;padding:5px 8px;border-radius:999px;font-weight:800;white-space:nowrap}
+.rating{font-size:13px;margin:7px 0 14px;color:#5a6472}
+.rating strong{color:#17191e;font-size:15px;margin-right:6px}
+.stars{color:#f5a623;letter-spacing:1px}
+.info{display:flex;gap:10px;align-items:flex-start;color:#505b6b;font-size:13px;margin:0 0 11px}
+.info b{color:#161a20;min-width:17px}
+.info a{text-decoration:none}
+.review{margin-top:auto;display:flex;align-items:center;justify-content:center;gap:9px;border-radius:999px;background:var(--red);color:#fff;text-decoration:none;font-size:14px;font-weight:850;padding:13px 14px;margin-top:16px;transition:transform .15s,background .15s}
+.review:hover{background:#bd0613;transform:translateY(-1px)}
+.note{margin:28px 0 0;background:var(--soft);border-radius:18px;padding:22px 24px;display:flex;gap:16px;align-items:center}
+.note-icon{font-size:30px;color:var(--red)}
+.note h3{margin:0 0 3px;font-size:18px}
+.note p{margin:0;color:var(--muted);font-size:14px}
+footer{background:#101114;color:white;margin-top:18px}
+.footer-inner{max-width:1180px;margin:auto;padding:28px 24px;display:flex;justify-content:space-between;align-items:center;gap:20px}
+.footer-copy{font-size:12px;color:#c8cbd1}
+.footer-links{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:#e5e7eb}
+footer a{color:inherit;text-decoration:none}
+@media(max-width:850px){.hero{grid-template-columns:1fr;padding-top:42px;gap:28px}.hero-art{min-height:220px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.navlinks{gap:12px}}
+@media(max-width:580px){.nav{padding:18px 18px}.navlinks{display:none}.logo{font-size:27px}.hero{padding:36px 18px 44px}h1{letter-spacing:-1.8px}.hero p{font-size:15px}.hero-art{min-height:190px}main{padding:36px 16px 24px}.grid{grid-template-columns:1fr;gap:13px}.branch{padding:19px}.note{align-items:flex-start;padding:18px}.footer-inner{align-items:flex-start;flex-direction:column;padding:24px 18px}}
+</style>
+</head>
+<body>
+<header id="home">
+  <nav class="nav">
+    <a class="logo" href="#home" aria-label="Bonnie Mobile Spares Ltd home">B<span>M</span>SL<small>BONNIE MOBILE SPARES LTD</small></a>
+    <div class="navlinks"><a href="#home">Home</a><a href="#branches">Our Branches</a><a href="#why">Why Your Review Matters</a></div>
+  </nav>
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Bonnie Mobile Spares Ltd</div>
+      <h1>Your Feedback<br><span>Matters!</span></h1>
+      <p>Had your phone repaired or bought spares from us? Share your honest experience on Google. Your feedback helps other customers find us and helps us serve you better.</p>
+      <a class="primary" href="#branches"><span class="gmark">G</span> Choose Your Branch <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="hero-art" role="img" aria-label="Stylized mobile phone and repair tool illustration">
+      <div class="phone"></div><div class="tool"></div>
+    </div>
+  </section>
+</header>
+
+<main>
+  <section id="branches">
+    <div class="section-head">
+      <div class="eyebrow">Choose your branch</div>
+      <h2>Leave a Review for Your Branch</h2>
+      <p>Choose the branch that served you, then open its Google listing to leave your review.</p>
+    </div>
+    <div class="grid">
+      <article class="branch">
+        <div class="branch-top"><h3>Githurai HQ</h3><span class="tag">Head Office</span></div>
+        <div class="rating"><strong>3.9</strong><span class="stars">★★★★★</span> <span>(40 reviews, as provided)</span></div>
+        <p class="info"><b>⌖</b><span>Githurai 45, opposite Railway Grounds, Mabros Building, next to High View Apartments.</span></p>
+        <p class="info"><b>☎</b><span><a href="tel:0702432508">0702 432 508</a> · <a href="tel:0712818181">0712 81 81 81</a> · <a href="tel:0708198931">0708 198 931</a></span></p>
+        <a class="review" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bonnie%20Mobile%20Spares%20Ltd%20Githurai%2045%20Mabros%20Building"> <span class="gmark">G</span> Open Google Listing →</a>
+      </article>
+      <article class="branch">
+        <div class="branch-top"><h3>Ruiru</h3><span class="tag">Branch</span></div>
+        <div class="rating"><strong>4.4</strong><span class="stars">★★★★★</span> <span>(rating provided)</span></div>
+        <p class="info"><b>⌖</b><span>Opposite Magunas Supermarket, Corner House, Shop 1, next to Ruiru Main Stage exit.</span></p>
+        <p class="info"><b>☎</b><span><a href="tel:0798660180">0798 660 180</a> · <a href="tel:0716393939">0716 39 39 39</a> · <a href="tel:0743257420">0743 257 420</a></span></p>
+        <a class="review" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bonnie%20Mobile%20Spares%20Ruiru%20Corner%20House%20opposite%20Magunas"> <span class="gmark">G</span> Open Google Listing →</a>
+      </article>
+      <article class="branch">
+        <div class="branch-top"><h3>Nyeri</h3><span class="tag">Branch</span></div>
+        <div class="rating"><strong>4.6</strong><span class="stars">★★★★★</span> <span>(20 reviews, as provided)</span></div>
+        <p class="info"><b>⌖</b><span>Gakere Road Junction, opposite Samrat Supermarket.</span></p>
+        <p class="info"><b>◷</b><span>Monday–Saturday, 7:30 AM–7:30 PM. Closed Sundays.</span></p>
+        <p class="info"><b>☎</b><span><a href="tel:0716305302">0716 305 302</a> · <a href="tel:0708271540">0708 271 540</a></span></p>
+        <a class="review" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bonnie%20Mobile%20Spares%20Nyeri%20opposite%20Samrat%20Supermarket"> <span class="gmark">G</span> Open Google Listing →</a>
+      </article>
+      <article class="branch">
+        <div class="branch-top"><h3>Kenol</h3><span class="tag">Branch</span></div>
+        <div class="rating"><strong>4.6</strong><span class="stars">★★★★★</span> <span>(5 reviews, as provided)</span></div>
+        <p class="info"><b>⌖</b><span>Kilele Mall, between Magunas Supermarket and Quiver Lounge, Kenol.</span></p>
+        <p class="info"><b>☎</b><span><a href="tel:0728854284">0728 854 284</a> · <a href="tel:0718365556">0718 365 556</a></span></p>
+        <a class="review" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bonnie%20Mobile%20Spares%20Kenol%20Kilele%20Mall"> <span class="gmark">G</span> Open Google Listing →</a>
+      </article>
+      <article class="branch">
+        <div class="branch-top"><h3>Naivasha</h3><span class="tag">Branch</span></div>
+        <div class="rating"><strong>5.0</strong><span class="stars">★★★★★</span> <span>(3 reviews, as provided)</span></div>
+        <p class="info"><b>⌖</b><span>Kenyatta Avenue, next to Tower Sacco, near Naivasha Main Stage.</span></p>
+        <p class="info"><b>☎</b><span><a href="tel:0708455708">0708 455 708</a> · <a href="tel:0718978881">0718 978 881</a></span></p>
+        <a class="review" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bonnie%20Mobile%20Spares%20Naivasha%20Kenyatta%20Avenue%20Tower%20Sacco"> <span class="gmark">G</span> Open Google Listing →</a>
+      </article>
+    </div>
+  </section>
+  <section class="note" id="why">
+    <div class="note-icon" aria-hidden="true">☆</div>
+    <div><h3>Your Review Helps Us Grow</h3><p>Thank you for being part of the Bonnie family. Please leave an honest review based on your own experience. We appreciate your trust and feedback.</p></div>
+  </section>
+</main>
+<footer>
+  <div class="footer-inner">
+    <div class="logo">B<span>M</span>SL<small>BONNIE MOBILE SPARES LTD</small></div>
+    <div class="footer-links"><span>Phone Repairs</span><span>Quality Spares</span><span>Customer Care</span></div>
+    <div class="footer-copy">Same quality. All branches.<br>© <span id="year">2026</span> Bonnie Mobile Spares Ltd</div>
+  </div>
+</footer>
+</body>
+</html>
